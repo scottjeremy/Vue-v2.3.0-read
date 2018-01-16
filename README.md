@@ -6,7 +6,7 @@
 
 ### 文件目录
 ``` bash
-├─compiler  //
+├─compiler  
 │   └─codegen
 │      ├─events.js
 │      └─index.js

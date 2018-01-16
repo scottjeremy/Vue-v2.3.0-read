@@ -144,6 +144,7 @@ function initData (vm: Component) {
   }
   // proxy data on instance
   /*遍历data对象*/
+  /* Object.keys是返回一个数组，数组的值为data对象中的key值 */
   const keys = Object.keys(data)
   const props = vm.$options.props
   let i = keys.length
